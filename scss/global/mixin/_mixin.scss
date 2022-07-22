@@ -1,0 +1,7 @@
+@use "../setting" as *;
+
+@mixin flex ($justify: center) {
+  display: flex;
+  justify-content: $justify;
+}
+  
